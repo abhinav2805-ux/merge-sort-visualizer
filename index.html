@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Merge Sort Visualizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>MERGESORT VISUALIZER</h1>
+    <div class="input-container">
+      <label class="input-label" for="numBars">Number of Bars:</label>
+      <input type="number" id="numBars" min="1" value="20">
+    </div>
+    <div class="input-container">
+      <label class="input-label" for="maxHeight">Max Height:</label>
+      <input type="number" id="maxHeight" min="20" value="200">
+    </div>
+    <div class="bars"></div>
+    <button onclick="startSorting()">Start Sorting</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
